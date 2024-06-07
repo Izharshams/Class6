@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+    <style>
+        
+        form{
+           
+           
+        }
+        .table-data{
+            padding: 10px;
+        }
+        .table2{
+            
+            display: flex;
+            justify-content:center;
+            margin:30px;
+            margin-right: 150px;
+            
+        }
+        .table2-row{
+            margin: 10px;
+        }
+        .btn{
+       display: flex;
+       justify-content: center;
+       
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Novell Services Login</h1>
+    <br>
+     <form>
+        <table  style="display:flex;justify-content: center;">
+            <tr>
+                <td class="table-data"><b>User Name:</b></td>
+                <td class="table-data" style="margin-left: 10px;"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="table-data"><b>password:</b></td>
+                <td class="table-data" style="margin-left: 10px;"><input type="password"></td>
+            </tr>
+            <tr>
+                <td class="table-data"><b>city of <br> employment:</b></td>
+                <td class="table-data" style="margin-left: 10px;"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="table-data">Web server</td>
+                <td class="table-data">
+            <select>
+                <option value="dropdown">-chose a server-</option>
+                <option value="dropdown">-chose a server-</option>
+                <option value="dropdown">-chose a server-</option>
+            </select>
+            </td>
+            </tr>
+            
+         <table class="table2">
+            <tr class="table2-row">
+                <td rowspan="4">please specify <br> your role</td>
+                <td><input type="radio"name="role">Admin</td>
+
+            </tr>
+            <tr class="table2-row">
+                <td><input type="radio"name="role">Emgineer</td>
+                
+            </tr>
+            <tr class="table2-row">
+                <td><input type="radio"name="role">Manager</td>
+                
+            </tr>
+            <tr class="table2-row">
+                <td><input type="radio"name="role">Guest</td>
+                
+
+            </tr>
+         </table>
+         <table class="table2">
+            <tr class="table2-row">
+                <td rowspan="4">Single sign-on <br>to the following</td>
+                <td><input type="radio"name="role">Mail</td>
+
+            </tr>
+            <tr class="table2-row">
+                <td><input type="radio"name="role">payroll</td>
+                
+            </tr>
+            <tr class="table2-row">
+                <td><input type="radio"name="role">Self-service</td>    
+            </tr>  
+         </table>
+        </table>
+    <div class="btn">
+        <input style="margin-right: 10px;" type="submit"value="Login">
+        <input type="submit"value="Rest">
+        </div>
+     </form>
+    
+</body>
+</html>
